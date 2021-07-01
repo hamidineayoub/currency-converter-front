@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:8080/calculate";
+const url = "https://converter-curren.herokuapp.com/calculate";
 
 const calculate = async (source, target, value) => {
     return axios.post(url, {
